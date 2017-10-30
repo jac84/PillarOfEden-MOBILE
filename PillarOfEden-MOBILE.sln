@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PillarOfEden-MOBILE.CSharp", "PillarOfEden-MOBILE.CSharp.csproj", "{12FA411D-D12A-6EAC-ADB5-FEBDA3032131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PillarOfEden-MOBILE.CSharp.Plugins", "PillarOfEden-MOBILE.CSharp.Plugins.csproj", "{15860BEB-349A-2E99-8CA9-A238A2090BC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PillarOfEden-MOBILE.CSharp.Editor", "PillarOfEden-MOBILE.CSharp.Editor.csproj", "{E01527B0-44FB-D70A-29FC-3F5944306C80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12FA411D-D12A-6EAC-ADB5-FEBDA3032131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12FA411D-D12A-6EAC-ADB5-FEBDA3032131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12FA411D-D12A-6EAC-ADB5-FEBDA3032131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12FA411D-D12A-6EAC-ADB5-FEBDA3032131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15860BEB-349A-2E99-8CA9-A238A2090BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15860BEB-349A-2E99-8CA9-A238A2090BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15860BEB-349A-2E99-8CA9-A238A2090BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15860BEB-349A-2E99-8CA9-A238A2090BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E01527B0-44FB-D70A-29FC-3F5944306C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E01527B0-44FB-D70A-29FC-3F5944306C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E01527B0-44FB-D70A-29FC-3F5944306C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E01527B0-44FB-D70A-29FC-3F5944306C80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

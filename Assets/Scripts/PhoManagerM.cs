@@ -19,6 +19,10 @@ public class PhoManagerM : Photon.MonoBehaviour
         PhotonNetwork.JoinOrCreateRoom("hello", roomops, TypedLobby.Default);
 
     }
+    void Update()
+    {
+        Debug.Log(PhotonNetwork.connectionStateDetailed.ToString());
+    }
 
 
 }
