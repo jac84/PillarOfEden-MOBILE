@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PillarOfEden-MOBILE.CSharp", "PillarOfEden-MOBILE.CSharp.csproj", "{12FA411D-D12A-6EAC-ADB5-FEBDA3032131}"
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PillarOfEden-MOBILE", "PillarOfEden-MOBILE.csproj", "{C7EE7105-447F-4C5F-AE94-FFEC6572A2DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PillarOfEden-MOBILE.CSharp.Plugins", "PillarOfEden-MOBILE.CSharp.Plugins.csproj", "{15860BEB-349A-2E99-8CA9-A238A2090BC7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PillarOfEden-MOBILE.Plugins", "PillarOfEden-MOBILE.Plugins.csproj", "{9ECB46C8-BBA7-602A-6206-56E6A6EB69BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PillarOfEden-MOBILE.CSharp.Editor", "PillarOfEden-MOBILE.CSharp.Editor.csproj", "{E01527B0-44FB-D70A-29FC-3F5944306C80}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PillarOfEden-MOBILE.Editor", "PillarOfEden-MOBILE.Editor.csproj", "{1AE31D21-7E54-5376-49D8-A989FE17C431}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,18 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{12FA411D-D12A-6EAC-ADB5-FEBDA3032131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{12FA411D-D12A-6EAC-ADB5-FEBDA3032131}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{12FA411D-D12A-6EAC-ADB5-FEBDA3032131}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{12FA411D-D12A-6EAC-ADB5-FEBDA3032131}.Release|Any CPU.Build.0 = Release|Any CPU
-		{15860BEB-349A-2E99-8CA9-A238A2090BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{15860BEB-349A-2E99-8CA9-A238A2090BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{15860BEB-349A-2E99-8CA9-A238A2090BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{15860BEB-349A-2E99-8CA9-A238A2090BC7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E01527B0-44FB-D70A-29FC-3F5944306C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E01527B0-44FB-D70A-29FC-3F5944306C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E01527B0-44FB-D70A-29FC-3F5944306C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E01527B0-44FB-D70A-29FC-3F5944306C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7EE7105-447F-4C5F-AE94-FFEC6572A2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7EE7105-447F-4C5F-AE94-FFEC6572A2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7EE7105-447F-4C5F-AE94-FFEC6572A2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7EE7105-447F-4C5F-AE94-FFEC6572A2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ECB46C8-BBA7-602A-6206-56E6A6EB69BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ECB46C8-BBA7-602A-6206-56E6A6EB69BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ECB46C8-BBA7-602A-6206-56E6A6EB69BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ECB46C8-BBA7-602A-6206-56E6A6EB69BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE31D21-7E54-5376-49D8-A989FE17C431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE31D21-7E54-5376-49D8-A989FE17C431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE31D21-7E54-5376-49D8-A989FE17C431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE31D21-7E54-5376-49D8-A989FE17C431}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
