@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/phonowork.unity
+- path: Assets/TowerSelectScene.unity
   isLoaded: 1
   isActive: 1
