@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PhoManagerM : Photon.MonoBehaviour
 {
-
+    public Text connectstatus;
     void Start()
     {
         
@@ -21,6 +21,7 @@ public class PhoManagerM : Photon.MonoBehaviour
     }
     void Update()
     {
+        connectstatus.text = PhotonNetwork.connectionStateDetailed.ToString();
         Debug.Log(PhotonNetwork.connectionStateDetailed.ToString());
     }
 

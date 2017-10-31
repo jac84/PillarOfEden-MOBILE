@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/phonowork.unity
+- path: Assets/LvlIt_1.unity
   isLoaded: 1
   isActive: 1
