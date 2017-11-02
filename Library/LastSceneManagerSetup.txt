@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/LvlIt_1.unity
+- path: Assets/midtermmobile.unity
   isLoaded: 1
   isActive: 1
