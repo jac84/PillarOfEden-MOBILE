@@ -21,7 +21,7 @@ public class PhoManagerM : Photon.MonoBehaviour
     }
     void Update()
     {
-        connectstatus.text = PhotonNetwork.connectionStateDetailed.ToString();
+        //connectstatus.text = PhotonNetwork.connectionStateDetailed.ToString();
         Debug.Log(PhotonNetwork.connectionStateDetailed.ToString());
     }
 

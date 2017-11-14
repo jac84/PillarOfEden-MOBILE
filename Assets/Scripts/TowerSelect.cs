@@ -10,6 +10,7 @@ public class TowerSelect : MonoBehaviour
     private int currentTower;
     [SerializeField]
     private Text ButtonTower;
+
     // Use this for initialization
     void Start()
     {
@@ -18,27 +19,11 @@ public class TowerSelect : MonoBehaviour
 
     public void TowerSwitch()
     {
-        for (int i = 0; i < Towers.Length; i++)
-        {
-            if (currentTower == i)
-            {
-                if ((currentTower + 2) > Towers.Length)
-                {
-                    currentTower = 0;
-                    ButtonTower.text = Towers[currentTower];
-                    return;
-                }
-                else
-                {
-                    currentTower++;
-                    ButtonTower.text = Towers[currentTower];
-                    return;
-                }
-            }
-        }
+        Debug.Log(Towers[GetComponent<Dropdown>().value]);
     }
     public string CurrentTower()
     {
-        return Towers[currentTower];
+        
+        return Towers[GetComponent<Dropdown>().value];
     }
 }
