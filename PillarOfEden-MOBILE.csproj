@@ -153,10 +153,13 @@
     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\UI\ButtonInsideScrollList.cs" />
     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\UI\TextButtonTransition.cs" />
     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\UI\TextToggleIsOnTransition.cs" />
+    <Compile Include="Assets\Scripts\MPlayer.cs" />
     <Compile Include="Assets\Scripts\offsetmobile.cs" />
     <Compile Include="Assets\Scripts\PhoManagerM.cs" />
     <Compile Include="Assets\Scripts\StoreMenu.cs" />
     <Compile Include="Assets\Scripts\TowerSelect.cs" />
+    <Compile Include="Assets\Scripts\TowerSpawnManager.cs" />
+    <Compile Include="Assets\Scripts\UIManager.cs" />
     <Compile Include="Assets\Scripts\WatcherScript.cs" />
   </ItemGroup>
   <ItemGroup>

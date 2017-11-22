@@ -15,18 +15,16 @@ public class MPlayer : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began && PlayerCurrency >= towermanager.CurrentTowercost())
         {
-            if (PlayerCurrency > towermanager.CurrentTowercost())
-            {
+           // if ()
+            
+
                 towermanager.SpawnTower(Input.GetTouch(0).position, towermanager.CurrentTower());
                 PlayerCurrency -= towermanager.CurrentTowercost();
                 CurrencyVisual.text = "Money: " + PlayerCurrency;
-            }
-            else
-            {
-                Debug.Log("No more money boyo");
-            }
+            
+          
         }
     }
 }
